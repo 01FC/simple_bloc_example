@@ -1,16 +1,23 @@
-# login_bloc
+# Ejercicio Forms y BLoC
 
-A new Flutter project.
+- Utilizar BLoC para separar logica de UI.
+- Manejo de estados y eventos.
+- Peticiones HTTP.
+- Implementar serializacion de JSON.
+- Generar codigo de manera automatica con Build runner.
+- Mapear JSON a objeto de Dart.
+- Validar formularios.
 
-## Getting Started
+## Login Page
 
-This project is a starting point for a Flutter application.
+Formulario simple con validaciones.
 
-A few resources to get you started if this is your first Flutter project:
+### Home Page
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Listado de datos cargados desde web service.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Home Bloc
+
+Recive eventos y en base a estos rergesa estados para actualizar la UI.
+Logica para hacer peticiones http.
+
